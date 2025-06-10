@@ -1,0 +1,21 @@
+1. W zadanym katalogu ($1) przerób wszystkie dowiązania twarde wskazujące na pliki regularne 
+w tym katalogu – na dowiązania symboliczne (należy pozostawić jeden plik/dowiązanie, na który 
+wskażą pozostałe).
+2. W zadanym katalogu ($1) przerób wszystkie dowiązania symboliczne, zdefiniowane ścieżkami 
+względnymi, na równoważne zdefiniowane ścieżkami bezwzględnymi.
+3. Sprawdź, czy zadane dowiązanie symboliczne ($1) wskazuje na podany obiekt ($2). Rozwiązanie 
+bazujące na porównaniu numerów inode’ów jest niewystarczające!
+4. W zadanym katalogu ($1) znajdź dowiązania symboliczne do obiektów w tym samym katalogu $1 
+i usuń je.
+5. W zadanym katalogu znajdź dowiązania symboliczne wskazujące na pliki regularne w drugim 
+(zadanym) katalogu.
+6. W zadanym katalogu ($1) znajdź podkatalogi, zawierające dowiązania symboliczne do obiektów 
+w tym katalogu ($1).
+
+Trudniejsze (2.2)
+1. Utwórz kopię zadanego katalogu ($1), przy czym dowiązania symboliczne, wskazujące na obiekty 
+w katalogu, powinny w kopii ($2) wskazywać na kopie obiektów, natomiast dowiązania symboliczne 
+wskazujące poza katalog powinny w kopii wskazywać na oryginalny obiekt. Podkatalogów nie należy
+kopiować (tylko pliki regularne i dowiązania).
+2. Dla dowolnych dwóch katalogów (argumenty skryptu), zastąp w drugim wszystkie dowiązania 
+twarde, wspólne dla obu katalogów, dowiązaniami symbolicznymi.

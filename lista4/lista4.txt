@@ -1,0 +1,30 @@
+1 W zadanym drzewie katalogów wylistować  wszystkie pliki regularne, mające jedno z rozszerzeń 
+o postaci „exe” (wielokrotne rozszerzenia to rozszerzenia, od kropki do kropki lub do końca nazwy, 
+gdy plik ma wiele kropek w nazwie).
+2 W zadanym pliku tekstowym znaleźć wszystkie daty o postaci dd.mm.rrrr i zastąpić je datami 
+postaci rr/mm/dd. Tekst pomiędzy datami nie powinien być usuwany .Tekst z zastąpionymi datami 
+wyświetlić na ekranie (nie zmieniać w pliku).
+3 W zadanym drzewie katalogów wylistować wszystkie pliki regularne, których nazwa pokrywa się 
+z nazwą katalogu w którym się znajdują. Dla potrzeb tego zadania, należy porównywać nazwy 
+plików/katalogów bez rozszerzeń.
+4 W zadanym pliku zawierającym program w języku C, należy usunąć wszystkie komentarze 
+postaci /*…*/. Należy przyjąć, że komentarze nie są zagnieżdżane (jest to zgodne ze standardem 
+Posix), oraz że plik nie zawiera komentarzy postaci //. Podpowiedź: zadanie można uprościć 
+ustawiając koniec rekordu na */.
+5 Wyświetlić zawartość zadanego pliku tekstowego tak, że każde zdanie wyświetlane jest 
+w osobnej linii (jednej). Nie należy przyjmować żadnych założeń uproszczających co do 
+zawartości wyświetlanego pliku. W szczególności może on zawierać zdania zapisane w wielu 
+liniach, oraz linie zawierające wiele zdań lub części zdań. 
+6 Sprawdź, czy zadany plik jest tekstowy. Kryteria: długość linii < 128 znaków, plik zawiera 
+znaki ASCII bez znaków sterujących (poza nową linią). Zidentyfikuj, czy jest to plik w formacie 
+tekstowym DOS/Windows czy UNIX/Linux (na podstawie znaków końca wiersza).
+	
+	Trudniejsze (2.2)
+1 W zadanym pliku tekstowym (zawierającym znaki tabulacji) zastąpić znaki tabulacji przez 
+odpowiednią liczbę spacji. Założyć, że znak tabulacji powinien przesunąć tekst w prawo 
+o taką liczbę spacji, aby początek następnego słowa znalazł się w kolumnie n*$2, gdzie 
+$2 jest liczbą całkowitą zadaną w drugim parametrze skryptu a n najmniejszą liczbą 
+całkowitą dodatnią, taką że tabulacja przesunie tekst w prawo (tak jak działa tabulator 
+domyślny w procesorze tekstu).
+2 W pliku zawierającym program w języku C usunąć wszystkie komentarze postaci 
+//. Uwzględnić możliwość występowania znaków // wewnątrz łańcuchów tekstowych.

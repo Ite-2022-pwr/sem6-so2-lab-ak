@@ -1,0 +1,30 @@
+1. W zadanym drzewie katalogów znaleźć katalogi zawierające mniej niż $2 (zadany parametr), 
+a więcej lub równo $3 podkatalogi. Skrypt musi uwzględniać ostrość nierówności! Podpowiedź: 
+liczbę podkatalogów można określić na podstawie liczby dowiązań twardych do katalogu.
+2. W zadanym drzewie katalogów znaleźć pliki regularne puste, których właściciel nie ma prawa 
+zapisu ani prawa wykonania, natomiast ktoś inny (właściciel grupowy lub inny) ma prawo zapisu. 
+Skrypt nie powinien zakładać żadnych dodatkowych warunków dotyczących praw dostępu.
+3. W zadanym drzewie katalogów znaleźć pliki regularne, do których właściciel nie ma prawa 
+zapisu, ale ktoś inny ma prawo wykonania, zmodyfikowane nie wcześniej niż 5 minut temu i nie 
+później niż $2 (argument skryptu) minut temu.
+4. W zadanym drzewie katalogów znaleźć dowiązania symboliczne wskazujące na pliki regularne wykonywalne 
+przez efektywnego użytkownika skryptu.
+5. W zadanym drzewie katalogów znaleźć dowiązania symboliczne „wiszące” (nie wskazujące na 
+istniejące obiekty).
+6. W zadanym drzewie katalogów znaleźć pliki regularne, do których właściciel ma prawo zapisu 
+i nikt nie ma prawa wykonania, mające co najmniej 3 dowiązania twarde.
+	
+	
+Trudniejsze (3.2)
+1. Skopiować zadane drzewo katalogów w zadane miejsce, uwzględniając pliki regularne, podkatalogi 
+oraz dowiązania symboliczne. Dowiązania symboliczne w kopii powinny wskazywać na pierwotne obiekty.
+2. Dla zadanych dwóch drzew katalogów utworzyć trzecie zawierające wszystkie obiekty pierwszego 
+i drugiego (pliki i podkatalogi, dowiązań symbolicznych nie należy kopiować). Jeżeli obiekty 
+powtarzają się w obu drzewach i w obu są katalogami, to należy połączyć ich zawartości. 
+Jeżeli w jednym z drzew jest to plik, a w drugim katalog, to należy skopiować tylko plik. 
+Gdy są dwa pliki  regularne o tej samej nazwie i położeniu względem wierzchołków drzew, to należy 
+skopiować tylko pierwszy.
+3. Dla zadanych dwóch drzew katalogów utworzyć trzecie, będące częścią wspólną dwóch pierwszych. 
+Aby utworzyć kopię, pliki/katalogi/dowiązania muszą się w obu tak samo nazywać i mieć ten 
+sam typ. Zawartość pliku regularnego lub ścieżka dowiązania są nieistotne. W kopii zawsze jest 
+to kopia z drzewa pierwszego.
